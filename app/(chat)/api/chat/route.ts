@@ -26,9 +26,6 @@ import { updateDocument } from '@/lib/ai/tools/update-document';
 import { requestSuggestions } from '@/lib/ai/tools/request-suggestions';
 import { getWeather } from '@/lib/ai/tools/get-weather';
 
-import { setupMonocle } from 'monocle2ai';
-setupMonocle("nextjs-ai-chatbot-wf")
-
 export const maxDuration = 60;
 
 export async function POST(request: Request) {
