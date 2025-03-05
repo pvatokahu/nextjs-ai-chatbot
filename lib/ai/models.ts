@@ -7,6 +7,9 @@ import {
 } from 'ai';
 import { setupMonocle } from 'monocle2ai';
 
+setupMonocle(
+  "chat-vercel-coffee-wf"
+)
 export const DEFAULT_CHAT_MODEL: string = 'chat-model-small';
 
 export const myProvider = customProvider({
