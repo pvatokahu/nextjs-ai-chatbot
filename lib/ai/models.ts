@@ -5,6 +5,7 @@ import {
   extractReasoningMiddleware,
   wrapLanguageModel,
 } from 'ai';
+import { setupMonocle } from 'monocle2ai';
 
 export const DEFAULT_CHAT_MODEL: string = 'chat-model-small';
 
