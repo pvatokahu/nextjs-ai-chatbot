@@ -8,6 +8,9 @@ import { Document } from '../db/schema';
 import { saveDocument } from '../db/queries';
 import { Session } from 'next-auth';
 
+import { setupMonocle } from 'monocle2ai';
+setupMonocle("nextjs-ai-chatbot-wf")
+
 export interface SaveDocumentProps {
   id: string;
   title: string;
